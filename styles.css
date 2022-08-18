@@ -2,3 +2,10 @@
     box-sizing: border-box;
     border: 1px solid red;
 }
+
+.eventButtons {
+padding-left: 10%;
+padding-right: 10%;
+padding-top: 5%;
+padding-bottom: 5%;
+}
