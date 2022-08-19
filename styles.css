@@ -9,3 +9,15 @@ padding-right: 10%;
 padding-top: 5%;
 padding-bottom: 5%;
 }
+
+div {
+    background-color: antiquewhite;
+}
+
+.container {
+    border: 3px solid purple;
+}
+
+#secretSpan {
+    display: none;
+}
