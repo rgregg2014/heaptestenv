@@ -26,8 +26,9 @@
             <a href="http://www.google.com" target="blank">Google Stuff Here!</a>
         </span>
     </div>
-    <div class="container" data-heap-redact-attributes='data-fakessn,data-phone' data-heap-redact-text> 
-        <p id="field1" data-fakessn="551325553"> Kevin Tran </p> 
+    <div class="container" data-heap-redact-attributes='data-fakessn,data-phone' > 
+        <!-- putting data-heap-redact-text on the parent div, rather than the individual child p redacts the text from everything within that containing element -->
+        <p id="field1" data-fakessn="551325553" data-heap-redact-text> Kevin Tran </p> 
         <p id="field2" data-phone="5109403992"> 5109403992 </p>
      </div>
 
